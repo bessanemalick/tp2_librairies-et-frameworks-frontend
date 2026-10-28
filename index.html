@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <title>Projet TD1</title>
+    <!-- Icônes des réseaux sociaux -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <img src="img/logo-unchk.PNG" alt="logo-unchk">
+            <ul class="menu-principal">
+                <li id="actif"><a href="">Accueil</a></li>
+                <li><a href="">Institution ⌄</a></li>
+                <li><a href="">Formations ⌄</a></li>
+                <li><a href="">actualités</a></li>
+                <li><a href="">Recherche ⌄</a></li>
+                <li><a href="">Vie Etudiante ⌄</a></li>
+                <li><a href="">Service à la communauté ⌄</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+            <div class="menu-rech">
+                <ul>
+                    <li class="menu-item"><a href="">Menu <img src="img/bare-menu.png" alt="bare-menu"></a></li>
+                    <li class="rech-element"><a href=""><img src="img/loupe.png" alt="loupe"></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+       
+    <div class="diaporama">
+        <img src="img/slideshow1.png" alt="Slideshow 1" class="active">
+        <img src="img/slideshow2.png" alt="Slideshow 2">
+        <img src="img/slideshow3.png" alt="Slideshow 3">
+        <img src="img/slideshow4.png" alt="Slideshow 4">
+        <img src="img/slideshow5.png" alt="Slideshow 5">
+
+        <button class="fleche gauche" onclick="changerImage(-1)" aria-label="Image précédente">&#10094;</button>
+        <button class="fleche droite" onclick="changerImage(1)" aria-label="Image suivante">&#10095;</button>
+    </div>
+
+    <section class="formation-section">
+        <a href="#" class="formation-card card-orange">
+            <div class="card-top">
+                <div class="icon">📖</div>
+                <h2>NOS FORMATIONS</h2>
+            </div>
+            <span class="arrow">→</span>
+        </a>
+
+        <a href="#" class="formation-card card-blue">
+            <div class="card-top">
+                <div class="icon">📁</div>
+                <h2>ADMISSION</h2>
+            </div>
+            <span class="arrow">→</span>
+        </a>
+    </section>
+
+    <div class="vision-valeur-axes">
+        <h3>Vision</h3>
+        <h3>Valeur</h3>
+        <h3>Axes Stratégiques</h3>
+    </div>
+
+    <!-- Section actualités -->
+    <div class="actu-h1">
+        <h1>Actualités</h1>
+    </div>
+
+    <section class="actualites">
+        <!-- ARTICLES -->
+        <div class="articles">
+            <!-- Article 1 -->
+            <article class="article-card">
+                <img src="img/article-1.png" alt="Article">
+
+                <div class="article-content">
+                    <h2>
+                        Rappel à Dieu de M. Cheikh Hamidou KANE,
+                        parrain de l’UN-CHK
+                    </h2>
+
+                    <span class="date">4 octobre 2026</span>
+
+                    <p>
+                        L’Université numérique Cheikh Hamidou Kane (UN-CHK)
+                        a appris avec une profonde affliction le rappel à Dieu
+                        de son illustre parrain, Monsieur Cheikh Hamidou
+                    </p>
+
+                    <a href="#" class="read-more">
+                        Lire la suite
+                        <span>→</span>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Article 2 -->
+            <article class="article-card">
+                <img src="img/article-2.jpeg" alt="Article">
+
+                <div class="article-content">
+                    <h2>
+                        Pr Samuel OUYA, nommé président de la commission
+                        « Innovations pédagogiques, Transition numérique et IA »
+                        de la C2R d’Afrique de l’Ouest
+                    </h2>
+
+                    <span class="date">2 octobre 2026</span>
+
+                    <p>
+                        Le Professeur Samuel OUYA, Recteur de l’Université
+                        numérique Cheikh Hamidou Kane (UN-CHK), a été nommé
+                        à la présidence de la Commission « Innovations
+                    </p>
+
+                    <a href="#" class="read-more">
+                        Lire la suite
+                        <span>→</span>
+                    </a>
+                </div>
+            </article>
+
+            <a href="#" class="more-articles">
+                Plus d’articles
+            </a>
+        </div>
+
+        <!-- COMMUNIQUÉS -->
+        <aside class="communiques">
+            <div class="communiques-title">
+                <span class="news-icon">▣</span>
+                <h2>COMMUNIQUÉS</h2>
+            </div>
+
+
+            <div class="communique">
+                <p>
+                    Lancement de la deuxième phase de distribution des kits
+                    de connectivité à l’intention des étudiants de la
+                    Promotion 13
+                </p>
+                <span>16 octobre 2026</span>
+            </div>
+
+
+            <div class="communique">
+                <p>
+                    Lancement officiel du premier rapport national sur l’IA
+                    générative dans l’enseignement supérieur sénégalais
+                    par le groupe de recherche ALIVE
+                </p>
+                <span>14 octobre 2026</span>
+            </div>
+            <div class="communique">
+                <p>
+                    Prolongation – appel à candidatures pour une admission
+                    au Master international « Métiers de l’Édition
+                    Scientifique » (MEDITS)
+                </p>
+                <span>1 octobre 2026</span>
+            </div>
+            <div class="communique">
+                <p>
+                    Prolongation exceptionnelle des phases 1 et 2 des appels
+                    à candidatures pour le recrutement d’auditeurs en
+                    formation continue au titre de l’année académique
+                    2025/2026
+                </p>
+                <span>30 septembre 2026</span>
+            </div>
+        </aside>
+    </section>
+
+                                                       <!-- Section unchk-chiffres -->
+    <div class="unchk-chiffres">
+        <h1>UN-CHK EN CHIFFRES​</h1>
+    </div>
+    <section class="unchk-chiffres-cards">
+                                                        <!-- First card -->
+        <div class="unchk-chiffres-first-card">
+            <div class="first-card-green">
+                <h1>1ère<br><p>Université publique numérique</p></h1>
+                
+            </div>
+            <div class="first-card-img">
+                <img src="img/first.png" alt="first-card">
+            </div>
+        </div>
+                                                        <!-- second card -->
+        <div class="unchk-chiffres-second-card">
+            <div class="second-card-green">
+                <h1>19<br><p>Licences</p></h1>
+            </div>
+            <div class="second-card-img">
+                <img src="img/second.png" alt="second-card">
+            </div>
+        </div>
+                                                        <!-- third card -->
+        <div class="unchk-chiffres-third-card">
+            <div class="third-card-green">
+                <h1>26<br><p>Masters</p></h1>
+            </div>
+            <div class="third-card-img">
+                <img src="img/third.png" alt="third-card">
+            </div>
+        </div>
+    </section>
+
+                                                        <!-- pied de la page -->
+    <footer>
+        <div class="footer-haut">
+
+            <div class="colonne">
+                <h4>A PROPOS DE L'UN-CHK</h4>
+                <a href="#">Présentation</a>
+                <a href="#">Gouvernance</a>
+                <a href="#">Organigramme</a>
+                <a href="#">Directions et Pôles</a>
+            </div>
+
+            <div class="colonne">
+                <h4>NOS FORMATIONS</h4>
+                <a href="#">Formation initiale</a>
+                <a href="#">Formation continue</a>
+            </div>
+
+            <div class="colonne">
+                <h4>LIENS UTILES</h4>
+                <a href="#">MESRI</a>
+                <a href="#">ANSTS</a>
+                <a href="#">CAMES</a>
+                <a href="#">ANAQ-Sup</a>
+                <a href="#">AUF</a>
+            </div>
+
+            <div class="colonne contact">
+                <h4>CONTACT</h4>
+                <p>
+                    Cité du savoir – Diamniadio, Castors,<br>
+                    avenue Bourguiba, rue n°13
+                </p>
+                <p>+221 30 108 41 53 - contact@unchk.edu.sn</p>
+            </div>
+
+        </div>
+
+        <div class="footer-milieu">
+            <div class="reseaux">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="X"><i class="fab fa-x-twitter"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            </div>
+
+            <p class="devise">Foo Nekkal Foofu La !</p>
+        </div>
+
+        <div class="footer-bas">
+            <p>Copyright © 2025 UN-CHK. Tous les droits sont réservés.</p>
+            <a href="#" class="retour-haut" aria-label="Retour en haut">
+                <i class="fas fa-chevron-up"></i>
+            </a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
